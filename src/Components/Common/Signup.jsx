@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
-import "../../Style/Signup.css";
+// import "../../Style/SignUp.css";
 import axios from "axios";
 import PodcastListener from "../../assets/Images/Podcast Listener.svg";
 import { useNavigate } from "react-router-dom";
