@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #0c0c0e;
+  --font-color: white;
+  --subtitles: #aeaeae;
+  --panel-background-color: #393646;
+  --scrollbar-thumb: linear-gradient(
+    to right bottom,
+    rgb(74, 33, 179),
+    rgb(161, 28, 157)
+  );
+  --customPlayerDetails: #2e2e2e;
+}
+p {
+  margin: 0px;
+}
+
+button,
+.btn,
+.btn-primary {
+  background: transparent;
+  border: none;
+}
+body {
+  background-color: var(--background-color);
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  color: var(--font-color);
+}
+
+.search-bar > form {
+  position: relative;
+  /* top: -6px; */
+}
+.search-bar > form > .form-control {
+  background-color: var(--panel-background-color);
+  border: none;
+  border-radius: 5px;
+  color: var(--font-color);
+}
+.search-bar > form > .form-control:focus {
+  box-shadow: none;
+}
+
+.search-bar > .user-badge > .profile {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  left: -16px;
+}
+.search-bar > .user-badge > .dropdown > button {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+}
+
+.search-bar > .user-badge > .dropdown > .dropdown-toggle::after {
+  border-top: 0.6em solid;
+  border-right: 0.6em solid transparent;
+  border-bottom: 0;
+  border-left: 0.6em solid transparent;
+}
+
+.search-bar > .user-badge > .dropdown > .dropdown-menu > .dropdown-item {
+  width: calc(100% - 10px);
+  margin: auto;
+}
+
+.podcast-card {
+  position: relative;
+  display: flex;
+  width: 100px;
+}
+.podcast-card-vertical {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.podcast-card-horizontal {
+  flex-direction: row;
+  align-items: center;
+}
+
+.podcast-card > .poster {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+} 
+.podcast-card > p{
+  margin: 0px;
+}
+.podcast-card > .title {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.podcast-card > .subtitle {
+  color: var(--panel-background-color);
+}
+.podcast-card > .title,
+.subtitle {
+  font-size: 12px;
+}
+
+.modal,
+.modal-open {
+  padding: 0px !important;
+}
+.modal > .modal-dialog {
+  max-width: 100%;
+  margin: 10px;
+}

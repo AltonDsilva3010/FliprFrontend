@@ -1,0 +1,19 @@
+.profile-form .user-profile {
+  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+.profile-form .form .form-control {
+  height: 50px;
+  background-color: var(--panel-background-color);
+  color: var(--font-color);
+  margin-bottom: 20px;
+}
+.profile-form .form button {
+  margin: 0 auto;
+  width: 400px;
+  height: 40px;
+  padding: 5px 10px;
+  background-color: green;
+}

@@ -1,0 +1,31 @@
+
+
+.custom-table > .table-responsive::-webkit-scrollbar {
+    width: 2px;
+  }
+.custom-table > .table-responsive::-webkit-scrollbar-thumb {
+    background: var( --scrollbar-thumb );
+  }
+.custom-table > .table-responsive > .table > tbody > .t-row{
+    color: var(--panel-background-color);
+    cursor: pointer;
+    vertical-align: middle;
+    border-color: var(--background-color);
+}
+.custom-table > .table-responsive > .table > tbody > .t-row > .podcast-info > .title{
+    color: var(--font-color);
+}
+.custom-table > .table-responsive > .table > tbody > .t-row > .podcast-img > img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+.custom-table > .table-responsive > .table > tbody > .t-row > .podcast-like-btn{
+    cursor: pointer;
+}
+.custom-table > .table-responsive > .table > tbody > .t-row > .podcast-info > p{
+    margin: 0px;
+}
+.custom-table > .table-responsive > .table > tbody > .t-row > .podcast-info > p:not(:last-child){
+    margin-bottom: 5px;
+}

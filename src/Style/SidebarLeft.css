@@ -1,0 +1,47 @@
+
+.sidebar-left{
+    background-color: var(--panel-background-color);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    height: calc(100vh - 20px);
+    position: sticky;
+    top: 10px;
+}
+
+.sidebar-left .sidebar-upper {
+    width: 100%;
+}
+.sidebar-left .sidebar-upper > nav{
+    margin-top: 10px;
+}
+.sidebar-left .sidebar-upper > nav > ul {
+    padding  :0px;
+    margin: auto;
+    width: 100%;
+}
+
+.sidebar-left .sidebar-upper > nav > ul > .nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 0px;
+}
+.sidebar-left .sidebar-upper > nav > ul > .nav-link:hover{
+    background-color: var(--background-color);
+    border-radius: 6px;
+}
+.sidebar-left .sidebar-upper > nav > ul > .nav-link > span{
+    margin-top: 5px;
+}
+.sidebar-left .sidebar-upper > nav > ul > .nav-link:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.sidebar-left .sidebar-footer > .nav-link> .profile-img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}

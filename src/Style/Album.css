@@ -1,0 +1,62 @@
+.album-carousel .carousel-item {
+    height: calc(100% + 30px);
+  }
+.album-carousel{
+    margin-top: 10px;
+}
+.album-carousel > .carousel-div {
+    overflow-x: hidden;
+}
+.album-carousel > .carousel-div > .album-container{
+    min-width: 250px;
+    position: relative;
+    border-radius: 5px;
+    height: 150px;
+    padding: 10px;
+    color: inherit;
+    text-decoration: none;
+}
+.album-carousel > .carousel-div > .album-container > .icon{
+    width: 30px;
+    height: 30px;
+}
+
+.album-carousel > .carousel-div > .album-container > .album-container-footer{
+    position: absolute;
+    bottom: 10px;
+}
+.album-carousel > .carousel-div > .album-container > .album-container-footer > p{
+    margin : 0;
+}
+.album-carousel > .carousel-div > .album-container:not(:last-child){
+    margin-right: 10px;
+}
+
+.album-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Increase height */
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: none; /* Remove underline */
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  .album-container > svg{
+    width: 30px;
+    height: 30px;
+    color: white;
+  }
+  .album-container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: white; /* Set color to white */
+  }
+  

@@ -1,0 +1,110 @@
+
+  /* Header styles */
+  .landing-page nav {
+    background-color:black;
+  }
+  
+  .landing-page nav a {
+    color: white !important;
+  }
+  .landing-page main{
+    background-color: black;
+    color:white;
+  }
+
+  .landing-page header{
+    padding: 10px 40px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .landing-page .brand-logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+  }
+  
+  /* Hero section styles */
+  .landing-page .hero {
+    background-image: url('https://source.unsplash.com/1500x800/?music');
+    background-size: cover;
+    /* height: 500px; */
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .landing-page  .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .landing-page  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .landing-page .hero .hero-text .nav-link {
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+  }
+  
+  /* Featured section styles
+  .landing-page  .featured {
+    padding: 2rem 0;
+  }
+  
+  .landing-page  .featured h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  
+  .landing-page  .card-image {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .landing-page  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:black
+  }
+  .landing-page  .card-content{
+    color:black;
+  }
+  
+  /* Search section styles */
+  .landing-page  .search {
+    padding: 2rem 0;
+  }
+  
+  .landing-page  .search h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .landing-page  .input-field input[type="text"] {
+    border-bottom: 2px solid #1DB954;
+  }
+  
+  .landing-page  .results {
+    margin-top: 2rem;
+  }
+  
+  .landing-page  .results li {
+    list-style: none;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,16 @@
+
+.displayPodcast{
+    margin-top: 20px;
+}
+
+.displayPodcast > .no-display-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.displayPodcast > .custom-spiner{
+    position: fixed;
+    top: 50%;
+    left: 45%;
+}

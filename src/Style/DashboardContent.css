@@ -1,0 +1,27 @@
+.dashboard-content-container > .title {
+  margin-top: 20px;
+}
+
+.dashboard-content-container > .trending-poadcast-table {
+  margin-bottom: 20px;
+}
+.dashboard-content-container
+  > .trending-poadcast-table
+  > .custom-table
+  > .table-responsive {
+  max-height: 300px;
+}
+
+.favourite-cards> .react-multi-carousel-list   > .react-multi-carousel-track  >.react-multi-carousel-item{
+    /* width: 150px !important; */
+    margin-right: 10px !important;
+}
+/* .favourite-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+} */
+
+.dashboard-liked-container {
+  height: auto;
+}

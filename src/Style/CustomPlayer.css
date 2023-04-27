@@ -1,0 +1,32 @@
+
+.custom-player{
+    width: 100%;
+    position: relative;
+    /* object-fit: contain; */
+    text-align: center;
+}
+.custom-player > .screen-mode{
+    position: absolute;
+    left: 30px;
+    top: 18px;
+    font-size: 25px;
+    z-index: 1;
+}
+.custom-player > .details{
+    position: absolute;
+    bottom: 10%;
+    left: 0px;
+    right: 0px;
+    top: 10%;
+    margin: auto;
+    background-color: var(--customPlayerDetails);
+    padding: 10px;
+    opacity: 0.9;
+    width: 230px;
+}
+.custom-player > .poster-img{
+    width: 260px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}

@@ -1,0 +1,30 @@
+
+.error-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.error-container  > h1 {
+    color: crimson;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+
+.error-container > p{
+    font-size: 25px;
+}
+.error-container > button{
+    background-color: crimson;
+    border: none;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+.error-container > button:hover , .error-container > button>:focus , .error-container > button>.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    background-color: crimson;
+
+}
