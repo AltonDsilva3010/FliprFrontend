@@ -4,7 +4,7 @@
 ![Imgur](https://i.imgur.com/GnK5aV8.png)
 
 #### Video/Audio Player
-![Imgur](https://imgur.com/9BrfqXR)
+![Imgur](https://imgur.com/9BrfqXR.png)
 #### Login Page
 ![Imgur](https://imgur.com/Vv18DLH)
 #### SearchBar to search using Authors or Podcast Name or Category
