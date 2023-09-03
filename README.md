@@ -1,7 +1,7 @@
 ### PodCastIO : An Audio and Video Podcast Web Player
 
 #### Dashboard
-[Imgur](https://imgur.com/GnK5aV8)
+![Imgur](https://i.imgur.com/GnK5aV8.png)
 
 #### Video/Audio Player
 ![Imgur](https://imgur.com/9BrfqXR)
